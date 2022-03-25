@@ -1,0 +1,21 @@
+.products-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.products {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5rem;
+    justify-items: center;
+    /* border: 2px solid red; */
+}
+
+.selected-item {
+    /* padding-top: 20px; */
+    /* padding-left: 30px; */
+    position: sticky;
+    top: 0;
+    border-radius: 8px 8px 8px 8px;
+}

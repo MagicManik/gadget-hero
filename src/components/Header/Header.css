@@ -1,0 +1,9 @@
+.title {
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(252, 152, 168);
+}
+
+.title span {
+    color: hsl(210deg 100% 44%)
+}
