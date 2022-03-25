@@ -32,6 +32,8 @@ const Products = () => {
                 {
                     items.map(item => <ShoppingCart key={item.id} item={item}></ShoppingCart>)
                 }
+                <button>Choose</button>
+                <button>Remove</button>
             </div>
         </div>
     );

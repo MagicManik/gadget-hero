@@ -6,9 +6,11 @@ const ShoppingCart = ({ item }) => {
     console.log(img)
 
     return (
-        <div className='shopping-cart'>
-            <img width={50} src={img} alt="" />
-            <p>{name}</p>
+        <div>
+            <div className='shopping-cart'>
+                <img width={50} src={img} alt="" />
+                <p>{name}</p>
+            </div>
         </div>
     );
 };
