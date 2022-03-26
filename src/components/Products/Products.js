@@ -39,24 +39,26 @@ const Products = () => {
                     products.map(product => <Product key={product.id} product={product} addToBag={addToBag}></Product>)
                 }
             </div>
-            <div className='selected-item'>
-                {
-                    items.map(item => <SelectedItem key={item.id} item={item}></SelectedItem>)
-                }
-                <div className='selected-one'>
-                    <img width={100} src={chooseOne.img} alt="" />
-                    <h3>{chooseOne.name}</h3>
-                    <div>
-                        <p>{chooseOne.message}</p>
+            <div>
+                <div className='selected-item'>
+                    {
+                        items.map(item => <SelectedItem key={item.id} item={item}></SelectedItem>)
+                    }
+                    <div className='selected-one'>
+                        <img width={100} src={chooseOne.img} alt="" />
+                        <h3>{chooseOne.name}</h3>
+                        <div>
+                            <p>{chooseOne.message}</p>
+                        </div>
                     </div>
-                </div>
 
-                <div className='selected-button-container'>
+                    <div className='selected-button-container'>
 
-                    <button className='choose-button' onClick={() => randomSelector(items)}>Choose For Me</button>
+                        <button className='choose-button' onClick={() => randomSelector(items)}>Choose For Me</button>
 
-                    <button className='choose-again-button' onClick={emptyItem}>Choose Again</button>
+                        <button className='choose-again-button' onClick={emptyItem}>Choose Again</button>
 
+                    </div>
                 </div>
             </div>
         </div>
