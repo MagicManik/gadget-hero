@@ -1,0 +1,27 @@
+.article-container {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2rem 1rem 2rem 2rem;
+   
+}
+
+.article-left, .article-right {
+padding: 16px;
+border-radius: 18px;
+box-shadow: 2px 2px 5px #BABECC, 2px 2px 5px #BABECC;
+}
+
+.article-paragraph {
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 576px) {
+    .article-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+    
+}

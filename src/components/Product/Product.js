@@ -12,7 +12,7 @@ const Product = ({ product, addToBag }) => {
                 <div className='product-info'>
                     <p className='product-name'>{name}</p>
                     <p className='product-price'>Price : ${price}</p>
-                    <h4>Brand: <span className='brand-name'>{brand}</span></h4>
+                    <h4 className='brand-name'>Brand: <span>{brand}</span></h4>
                 </div>
             </div>
             <div>

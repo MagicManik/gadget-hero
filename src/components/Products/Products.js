@@ -6,16 +6,10 @@ import './Products.css'
 const Products = () => {
     const [products, setProducts] = useState([]);
     const [items, setItems] = useState([]);
-    // এখানে এসে দেখবো
     const [chooseOne, setChooseOne] = useState([]);
-    // console.log(cart)
-
-
-
 
     const addToBag = product => {
         const newItems = [...items, product];
-        // setCart(product)
         setItems(newItems);
     }
 
@@ -23,7 +17,6 @@ const Products = () => {
         const emptyItem = []
         setItems(emptyItem)
     }
-
 
     const randomSelector = selectedItems => {
         const random = Math.floor(Math.random() * 4);
@@ -60,10 +53,10 @@ const Products = () => {
 
                 <div className='selected-button-container'>
 
-                    <button className='choose-button' onClick={() => randomSelector(items)}>Choose 1 For Me</button>
-
+                    <button className='choose-button' onClick={() => randomSelector(items)}>Choose For Me</button>
 
                     <button className='choose-again-button' onClick={emptyItem}>Choose Again</button>
+
                 </div>
             </div>
         </div>

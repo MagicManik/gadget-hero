@@ -1,8 +1,8 @@
 .product-container {
     border-radius: 18px;
     position: relative;
-    width: 286px;
-    height: 400px;
+    width: 320px;
+    height: 450px;
     box-shadow: 2px 2px 5px #BABECC, 2px 2px 5px #BABECC;
 }
 
@@ -14,7 +14,7 @@
     width: 80%;
     border-radius: 8px;
     display: block;
-    margin: 0 auto;
+    margin: 10px;
 }
 
 .product-info {
@@ -40,18 +40,30 @@
 }
 
 .brand-name {
-    color: hsl(210deg 100% 44%);
+    color: rgb(29, 29, 29);
+}
+
+.brand-name span {
+    color: hsl(210deg 100% 44%);;
 }
 
 .product-button {
     padding: .7rem;
     width: 45%;
     border: none;
-    background: hsl(210deg 100% 44%);
+    background: linear-gradient(335.64deg,#ff589b -19.22%,#ff136f 118.87%);
     border-radius: 34px;
     position: absolute;
     left: 25%;
     bottom: 16px;
     color: white;
     font-size: 16px;
+}
+
+.product-button:hover {
+    background: linear-gradient(335.64deg,#ff136f -19.22%,#ff589b 118.87%);
+}
+
+.selected-one {
+    padding: 15px;
 }
