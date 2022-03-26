@@ -1,14 +1,14 @@
-.shopping-cart {
+.selecteditem-container {
  display: flex;
  justify-content: flex-start;
  align-items: center;
  margin: 0 5px;
 }
 
-.shopping-cart img {
+.selecteditem-container img {
     padding: 10px;
 }
 
-.shopping-cart p {
+.selecteditem-container p {
     margin: 0;
 }

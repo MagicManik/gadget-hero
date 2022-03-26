@@ -1,13 +1,12 @@
 import React from 'react';
-import './ShoppingCart.css'
+import './SelectedItem.css'
 
-const ShoppingCart = ({ item }) => {
+const SelectedItem = ({ item }) => {
     const { img, name } = item;
-    // console.log(img)
 
     return (
         <div>
-            <div className='shopping-cart'>
+            <div className='selecteditem-container'>
                 <img width={50} src={img} alt="" />
                 <p>{name}</p>
             </div>
@@ -15,4 +14,4 @@ const ShoppingCart = ({ item }) => {
     );
 };
 
-export default ShoppingCart;
+export default SelectedItem;

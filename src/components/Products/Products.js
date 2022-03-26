@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
-import ShoppingCart from '../ShoppingCart/ShoppingCart';
+import SelectedItem from '../SelectedItem/SelectedItem';
 import './Products.css'
 
 const Products = () => {
@@ -41,7 +41,7 @@ const Products = () => {
             </div>
             <div className='selected-item'>
                 {
-                    items.map(item => <ShoppingCart key={item.id} item={item}></ShoppingCart>)
+                    items.map(item => <SelectedItem key={item.id} item={item}></SelectedItem>)
                 }
                 <div className='selected-one'>
                     <img width={100} src={chooseOne.img} alt="" />
