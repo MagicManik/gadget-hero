@@ -14,13 +14,16 @@ const Products = () => {
         setItems(newItems);
     }
 
+    const emptyItem = item => {
+        const emptyItem = []
+        setItems(emptyItem)
+    }
+
     useEffect(() => {
         fetch('products.json')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
-
-
     return (
         <div className='products-container'>
             <div className='products'>
@@ -32,8 +35,10 @@ const Products = () => {
                 {
                     items.map(item => <ShoppingCart key={item.id} item={item}></ShoppingCart>)
                 }
-                <button>Choose</button>
-                <button>Remove</button>
+                <div className='selected-button-container'>
+                    <button className='choose-button'>Choose 1 For Me</button>
+                    <button className='choose-again-button' onClick={emptyItem}>Choose Again</button>
+                </div>
             </div>
         </div>
     );
