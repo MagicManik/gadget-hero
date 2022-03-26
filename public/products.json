@@ -4,83 +4,95 @@
     "name": "Apple Smart Watch 7",
     "brand": "Apple",
     "price": 420,
-    "img": "gadget-img/product (1).jpg"
+    "img": "gadget-img/product (1).jpg",
+    "message": "Apple Smart Watch 7 will be perfect for you. When you wear Apple Watch you get a fitness partner, meaningful health insights, and a connection to what you care about most."
   },
   {
     "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
     "name": "Apple Watch Nike",
     "brand": "Apple",
     "price": 196,
-    "img": "gadget-img/product (2).jpg"
+    "img": "gadget-img/product (2).jpg",
+    "message": "Apple Watch Nike will be perfect for you. When you wear Apple Watch you get a fitness partner.  You will no longer be single."
   },
   {
     "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
     "name": "Apple Watch Hermès",
     "brand": "Apple",
     "price": 245,
-    "img": "gadget-img/product (3).jpg"
+    "img": "gadget-img/product (3).jpg",
+    "message": "Apple Watch Hermès will be perfect for you. When you wear Apple Watch you get a fitness partner, meaningful health insights, and a connection to what you care about most."
   },
   {
     "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
     "name": "Apple Watch Series 3",
     "brand": "Apple",
     "price": 229,
-    "img": "gadget-img/product (4).jpg"
+    "img": "gadget-img/product (4).jpg",
+    "message": "Apple Watch Series 3 will be perfect for you. When you wear Apple Watch you get a fitness partner, meaningful health insights, and a connection to what you care about most."
   },
   {
     "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
     "name": "Apple Watch SE",
     "brand": "Apple",
     "price": 287,
-    "img": "gadget-img/product (5).jpg"
+    "img": "gadget-img/product (5).jpg",
+    "message": "Apple Watch SE will be perfect for you. When you wear Apple Watch you get a fitness partner, meaningful health insights, and a connection to what you care about most."
   },
   {
     "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
     "name": "Apple Watch Love Bird",
     "brand": "Apple",
     "price": 138,
-    "img": "gadget-img/product (6).jpg"
+    "img": "gadget-img/product (6).jpg",
+    "message": "Apple Watch Love Bird will be perfect for you. When you wear Apple Watch you get a fitness partner, meaningful health insights, and a connection to what you care about most."
   },
   {
     "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
     "name": "Apple Watch Series 4",
     "brand": "Apple",
     "price": 226,
-    "img": "gadget-img/product (7).jpg"
+    "img": "gadget-img/product (7).jpg",
+    "message": "Apple Watch Series 4 will be perfect for you. When you wear Apple Watch you get a fitness partner, meaningful health insights, and a connection to what you care about most."
   },
   {
     "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
     "name": "Apple Watch Series 10",
     "brand": "Apple",
     "price": 319,
-    "img": "gadget-img/product (8).jpg"
+    "img": "gadget-img/product (8).jpg",
+    "message": "Apple Watch Series 10 will be perfect for you. When you wear Apple Watch you get a fitness partner, meaningful health insights, and a connection to what you care about most."
   },
   {
     "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
     "name": "Apple Watch Series 8",
     "brand": "Apple",
     "price": 260,
-    "img": "gadget-img/product (9).jpg"
+    "img": "gadget-img/product (9).jpg",
+    "message": "Apple Watch Series 8 will be perfect for you. When you wear Apple Watch you get a fitness partner, meaningful health insights, and a connection to what you care about most."
   },
   {
     "id": "ac44095f-230e-4502-8816-dea3eaae8320",
     "name": "Apple Watch Series 4.5",
     "brand": "Apple",
     "price": 437,
-    "img": "gadget-img/product (10).jpg"
+    "img": "gadget-img/product (10).jpg",
+    "message": "Apple Watch Series 4.5 will be perfect for you. When you wear Apple Watch you get a fitness partner, meaningful health insights, and a connection to what you care about most."
   },
   {
     "id": "d0803f97-966f-4296-ad31-a7f70fc86fab",
     "name": "Apple Watch Pinky",
     "brand": "Apple",
     "price": 146,
-    "img": "gadget-img/product (11).jpg"
+    "img": "gadget-img/product (11).jpg",
+    "message": "Apple Watch Pinky will be perfect for you. When you wear Apple Watch you get a fitness partner, meaningful health insights, and a connection to what you care about most."
   },
   {
     "id": "8a5b4a9c-76ea-4fbb-9c70-9548de4eab01",
     "name": "Apple Watch Hero",
     "brand": "Apple",
     "price": 109,
-    "img": "gadget-img/product (12).jpg"
+    "img": "gadget-img/product (12).jpg",
+    "message": "Apple Watch Hero will be perfect for you. When you wear Apple Watch you get a fitness partner, meaningful health insights, and a connection to what you care about most."
   }
 ]

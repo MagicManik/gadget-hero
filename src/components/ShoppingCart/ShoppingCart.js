@@ -3,7 +3,7 @@ import './ShoppingCart.css'
 
 const ShoppingCart = ({ item }) => {
     const { img, name } = item;
-    console.log(img)
+    // console.log(img)
 
     return (
         <div>
